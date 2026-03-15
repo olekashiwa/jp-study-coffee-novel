@@ -1,0 +1,87 @@
+📱 JAPANESE LEARNING APP
+├── 📁 core/                      # Ядро приложения
+│   ├── __init__.py
+│   ├── app.py                    # Главный класс приложения
+│   ├── database.py               # Работа с SQLite
+│   └── config.py                  # Конфигурация
+│
+├── 📁 data/                       # Данные
+│   ├── __init__.py
+│   ├── data_loader.py             # Загрузчик данных
+│   ├── japanese_data.json          # Основные данные (лексика, грамматика, кандзи)
+│   ├── chapter_texts.json          # Тексты глав
+│   └── translations.json           # Переводы
+│
+├── 📁 models/                      # Модели данных
+│   ├── __init__.py
+│   ├── user.py                     # Модель пользователя
+│   ├── vocabulary.py                # Модель лексики
+│   ├── grammar.py                   # Модель грамматики
+│   ├── kanji.py                     # Модель кандзи
+│   ├── exercise.py                  # Модель упражнений
+│   └── flashcard.py                 # Модель флэшкарт
+│
+├── 📁 ui/                          # Пользовательский интерфейс
+│   ├── __init__.py
+│   ├── main_window.py               # Главное окно
+│   ├── menu_bar.py                  # Меню приложения
+│   │
+│   ├── 📁 tabs/                     # Вкладки
+│   │   ├── __init__.py
+│   │   ├── text_tab.py               # Вкладка с текстом
+│   │   ├── vocabulary_tab.py          # Вкладка с лексикой
+│   │   ├── grammar_tab.py             # Вкладка с грамматикой
+│   │   ├── kanji_tab.py               # Вкладка с кандзи
+│   │   ├── exercises_tab.py           # Вкладка с упражнениями
+│   │   └── flashcards_tab.py          # Вкладка с флэшкартами
+│   │
+│   ├── 📁 dialogs/                   # Диалоговые окна
+│   │   ├── __init__.py
+│   │   ├── login_dialog.py            # Окно входа
+│   │   ├── register_dialog.py         # Окно регистрации
+│   │   ├── progress_dialog.py         # Окно прогресса
+│   │   ├── test_dialog.py             # Окно теста
+│   │   ├── help_dialog.py             # Окно справки
+│   │   └── about_dialog.py            # О программе
+│   │
+│   └── 📁 widgets/                   # Пользовательские виджеты
+│       ├── __init__.py
+│       ├── flashcard_widget.py        # Виджет флэшкарты
+│       ├── vocabulary_table.py         # Таблица лексики
+│       ├── grammar_table.py            # Таблица грамматики
+│       ├── kanji_table.py              # Таблица кандзи
+│       ├── exercise_widget.py          # Виджет упражнения
+│       └── progress_bar.py             # Прогресс-бар
+│
+├── 📁 services/                    # Бизнес-логика
+│   ├── __init__.py
+│   ├── auth_service.py              # Аутентификация
+│   ├── progress_service.py          # Отслеживание прогресса
+│   ├── flashcard_service.py         # Система интервального повторения
+│   ├── exercise_service.py          # Генерация упражнений
+│   ├── test_service.py              # Генерация тестов
+│   └── search_service.py            # Поиск по данным
+│
+├── 📁 utils/                       # Утилиты
+│   ├── __init__.py
+│   ├── helpers.py                   # Вспомогательные функции
+│   ├── constants.py                  # Константы
+│   ├── file_utils.py                 # Работа с файлами
+│   ├── date_utils.py                 # Работа с датами
+│   └── validators.py                 # Валидация данных
+│
+├── 📁 assets/                       # Ресурсы
+│   ├── 📁 fonts/                     # Шрифты
+│   ├── 📁 icons/                     # Иконки
+│   ├── 📁 images/                    # Изображения
+│   └── 📁 styles/                     # Стили (темы)
+│
+├── 📁 tests/                        # Тесты
+│   ├── __init__.py
+│   ├── test_models.py
+│   ├── test_services.py
+│   └── test_utils.py
+│
+├── requirements.txt                  # Зависимости
+├── README.md                         # Документация
+└── main.py                           # Точка входа

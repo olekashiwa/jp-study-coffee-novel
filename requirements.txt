@@ -1,0 +1,43 @@
+# Japanese Learning App - зависимости
+
+# Основные зависимости
+tkinter               # GUI библиотека (обычно встроена в Python)
+sqlite3               # База данных (встроена в Python)
+
+# Для работы с данными
+json                  # Работа с JSON (встроен)
+csv                   # Экспорт в CSV (встроен)
+
+# Для дат и времени
+datetime              # Работа с датами (встроен)
+
+# Для случайных чисел
+random                # Перемешивание вопросов (встроен)
+
+# Для путей и файлов
+os                    # Работа с файловой системой (встроен)
+pathlib               # Современная работа с путями (встроен)
+shutil                # Копирование файлов (встроен)
+
+# Для дополнительных функций (опционально)
+# Эти библиотеки можно установить для расширения функционала
+
+# matplotlib          # Для графиков прогресса (pip install matplotlib)
+# numpy               # Для математических операций (pip install numpy)
+# japanize-matplotlib # Для отображения японского в графиках (pip install japanize-matplotlib)
+# pandas              # Для анализа данных (pip install pandas)
+# googletrans         # Для автоматического перевода (pip install googletrans==4.0.0-rc1)
+# pykakasi            # Для конвертации кандзи в ромадзи (pip install pykakasi)
+# jamdict             # Японский словарь (pip install jamdict)
+# pyperclip           # Копирование в буфер обмена (pip install pyperclip)
+# pillow              # Для работы с изображениями (pip install pillow)
+# ttkthemes           # Дополнительные темы для tkinter (pip install ttkthemes)
+
+# Для тестирования
+# pytest              # Для запуска тестов (pip install pytest)
+# pytest-cov          # Для отчётов о покрытии (pip install pytest-cov)
+
+# Для разработки (опционально)
+# black               # Форматирование кода (pip install black)
+# flake8              # Проверка стиля кода (pip install flake8)
+# mypy                # Проверка типов (pip install mypy)

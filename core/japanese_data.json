@@ -1,0 +1,126 @@
+{
+  "vocabulary": {
+    "prologue": [
+      {"word": "都市伝説", "reading": "としでんせつ", "meaning": "городская легенда", "level": "N3", "example": "この街には不思議な都市伝説がある"},
+      {"word": "過去", "reading": "かこ", "meaning": "прошлое", "level": "N3", "example": "過去に戻りたい"},
+      {"word": "現実", "reading": "げんじつ", "meaning": "реальность", "level": "N2", "example": "現実は変わらない"},
+      {"word": "先客", "reading": "せんきゃく", "meaning": "предыдущий гость", "level": "N2", "example": "先客がいる"},
+      {"word": "めんどくさい", "reading": "", "meaning": "хлопотный", "level": "N3", "example": "めんどくさいルール"},
+      {"word": "冷める", "reading": "さめる", "meaning": "остывать", "level": "N3", "example": "コーヒーが冷める"}
+    ],
+    "chapter1": [
+      {"word": "彼氏", "reading": "かれし", "meaning": "парень", "level": "N3", "example": "彼氏と別れた"},
+      {"word": "別れ", "reading": "わかれ", "meaning": "расставание", "level": "N2", "example": "別れ話"},
+      {"word": "怪訝", "reading": "けげん", "meaning": "удивлённый", "level": "N2", "example": "怪訝な顔"},
+      {"word": "プライド", "reading": "", "meaning": "гордость", "level": "N2", "example": "プライドが邪魔する"},
+      {"word": "歯切れ悪い", "reading": "はぎれわるい", "meaning": "невнятный", "level": "N2", "example": "歯切れの悪い声"},
+      {"word": "ぼそぼそ", "reading": "", "meaning": "бормотание", "level": "N3", "example": "ぼそぼそ声で言う"},
+      {"word": "交際", "reading": "こうさい", "meaning": "отношения", "level": "N2", "example": "交際三年目"},
+      {"word": "結婚", "reading": "けっこん", "meaning": "брак", "level": "N3", "example": "結婚を考える"}
+    ]
+  },
+  
+  "grammar": {
+    "prologue": [
+      {"pattern": "〜ても", "meaning": "даже если", "example": "戻っても現実は変わらない", "level": "N3", "explanation": "前件が成立しても後件が変わらないことを表す"},
+      {"pattern": "〜てしまう", "meaning": "завершённость", "example": "冷めてしまう", "level": "N3", "explanation": "動作の完了・終了を表す。しばしば残念な気持ちを含む"},
+      {"pattern": "どんな〜も", "meaning": "любой", "example": "どんな努力をしても", "level": "N2", "explanation": "「どんな+N+も」で「無条件に」という意味"}
+    ],
+    "chapter1": [
+      {"pattern": "〜ながら", "meaning": "одновременность", "example": "手をのばしながら立ち上がった", "level": "N2", "explanation": "二つの動作を同時に行う"},
+      {"pattern": "〜そうだ", "meaning": "выглядит как", "example": "悲しそうな顔", "level": "N3", "explanation": "様子・状態を表す"},
+      {"pattern": "〜つもり", "meaning": "намерение", "example": "言わせるつもり", "level": "N3", "explanation": "話し手の意志・意図を表す"}
+    ]
+  },
+  
+  "kanji": {
+    "prologue": [
+      {"kanji": "都", "reading": "と, みやこ", "meaning": "столица", "examples": "都市"},
+      {"kanji": "市", "reading": "し, いち", "meaning": "город", "examples": "都市"},
+      {"kanji": "伝", "reading": "でん, つたえる", "meaning": "передавать", "examples": "伝説"},
+      {"kanji": "説", "reading": "せつ, とく", "meaning": "объяснение", "examples": "伝説"},
+      {"kanji": "過", "reading": "か, すごす", "meaning": "проходить", "examples": "過去"},
+      {"kanji": "去", "reading": "きょ, さる", "meaning": "уходить", "examples": "過去"},
+      {"kanji": "現", "reading": "げん, あらわす", "meaning": "появляться", "examples": "現実"},
+      {"kanji": "実", "reading": "じつ, み", "meaning": "правда", "examples": "現実"}
+    ],
+    "chapter1": [
+      {"kanji": "彼", "reading": "かれ, ひ", "meaning": "он", "examples": "彼氏"},
+      {"kanji": "氏", "reading": "し, うじ", "meaning": "господин", "examples": "彼氏"},
+      {"kanji": "別", "reading": "べつ, わかれる", "meaning": "отдельный", "examples": "別れ"},
+      {"kanji": "怪", "reading": "かい, あやしい", "meaning": "подозрительный", "examples": "怪訝"},
+      {"kanji": "訝", "reading": "げん, いぶかる", "meaning": "сомневаться", "examples": "怪訝"},
+      {"kanji": "歯", "reading": "は, し", "meaning": "зуб", "examples": "歯切れ"},
+      {"kanji": "切", "reading": "きる, せつ", "meaning": "резать", "examples": "歯切れ"},
+      {"kanji": "婚", "reading": "こん", "meaning": "свадьба", "examples": "結婚"}
+    ]
+  },
+  
+  "exercises": {
+    "prologue": [
+      {
+        "type": "grammar",
+        "question": "過去に戻っ___、現実は変わらない。",
+        "options": ["ても", "たら", "と", "ば"],
+        "answer": "ても",
+        "explanation": "〜ても - даже если"
+      },
+      {
+        "type": "vocab",
+        "question": "「めんどくさい」の意味は？",
+        "options": ["интересный", "хлопотный", "вкусный", "красивый"],
+        "answer": "хлопотный",
+        "explanation": "面倒くさい - хлопотный, надоедливый"
+      },
+      {
+        "type": "kanji",
+        "question": "「過去」の読み方は？",
+        "options": ["かこ", "みらい", "げんざい", "じかん"],
+        "answer": "かこ",
+        "explanation": "過去 - прошлое"
+      },
+      {
+        "type": "comprehension",
+        "question": "ルール1の内容は？",
+        "options": [
+          "過去に戻っても、この喫茶店を訪れた事のない人には会えない",
+          "過去に戻ってどんな努力をしても、現実は変わらない",
+          "過去に戻れる席には先客がいる",
+          "コーヒーが冷めるまでの間だけ"
+        ],
+        "answer": "過去に戻っても、この喫茶店を訪れた事のない人には会えない",
+        "explanation": "最初のルールはこれです"
+      }
+    ],
+    "chapter1": [
+      {
+        "type": "grammar",
+        "question": "彼はコーヒーを飲み___席を立った。",
+        "options": ["ながら", "ても", "たり", "てから"],
+        "answer": "ながら",
+        "explanation": "〜ながら - одновременность действий"
+      },
+      {
+        "type": "vocab",
+        "question": "「彼氏」の意味は？",
+        "options": ["подруга", "парень", "муж", "друг"],
+        "answer": "парень",
+        "explanation": "彼氏 - парень (романтический партнёр)"
+      },
+      {
+        "type": "kanji",
+        "question": "「結婚」の読み方は？",
+        "options": ["けっこん", "けっこんな", "けっこう", "けつこん"],
+        "answer": "けっこん",
+        "explanation": "結婚 - свадьба, брак"
+      },
+      {
+        "type": "comprehension",
+        "question": "五郎はなぜアメリカに行くのか？",
+        "options": ["仕事のため", "留学のため", "旅行のため", "結婚のため"],
+        "answer": "仕事のため",
+        "explanation": "五郎は仕事でアメリカに行くことになった"
+      }
+    ]
+  }
+}
